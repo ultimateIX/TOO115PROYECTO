@@ -1,5 +1,4 @@
 package gestion_lab
-import
 
 class Local {
     int idlocal
