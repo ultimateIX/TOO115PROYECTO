@@ -5,6 +5,7 @@ class Local {
     float latitud 
     float longuitud
     static belongsTo = [escuelaUser: Escuela]
+    static hasMany = [reservas: Reserva]
 
     static constraints = {
     }
