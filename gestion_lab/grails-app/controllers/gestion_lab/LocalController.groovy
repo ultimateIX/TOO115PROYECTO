@@ -11,4 +11,4 @@ class LocalController {
         [idLoc: idlocal, lati: latitud, longi: longuitud, escual: escuelaPropie, reser: reserva]
     }
 }
-/*La escuelaPropie y reserva no se si está bueno
+/*La escuelaPropie y reserva no se si está bueno */

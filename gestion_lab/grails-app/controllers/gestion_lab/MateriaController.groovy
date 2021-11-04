@@ -8,7 +8,6 @@ class MateriaController {
         def unidadesV=uV
         def oblig=obligatoria
         def prere=prerequisito
-        [codigoMater:codM, nombreMater: nombreM, unidadesValorativas:unidadesV, obligat:oblig
-        prerequisitoM:prere]
+        [codigoMater:codM, nombreMater: nombreM, unidadesValorativas:unidadesV, obligat:oblig,prerequisitoM:prere]
     }
 }
