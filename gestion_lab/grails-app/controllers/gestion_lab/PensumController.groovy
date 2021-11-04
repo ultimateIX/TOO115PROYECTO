@@ -2,5 +2,10 @@ package gestion_lab
 
 class PensumController {
 
-    def index() { }
+    def pensumvs = {
+        def idP=idePensum
+        def carreraP=carrera
+        def asignaturas=listaMaterias
+        [idPensum: idP, nombreCarrera:carreraP, materiasP: asignaturas]
+     }
 }
